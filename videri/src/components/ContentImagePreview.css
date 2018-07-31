@@ -1,0 +1,37 @@
+.ContentImage--root {
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  font-size: 12px;
+  padding: 6px;
+}
+
+.ContentImage--item {
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+}
+
+.ContentImage--info {
+	color: #000;
+	display: flex;
+	flex-flow: column-reverse;
+	letter-spacing: 1px;
+	padding: 12px;
+}
+
+.ContentImage--date-name {
+	order: 1;
+	padding-bottom: 8px;
+}
+
+.ContentImage--item.selected {
+	height: 50vh;
+	width: 50vh;
+}
+
+.ContentImage--type {
+	order: 2;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+}

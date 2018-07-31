@@ -1,0 +1,44 @@
+.SigninForm--root-container {
+  overflow: hidden;
+  padding: 0 80px;
+}
+
+.SigninForm--id, .SigninForm--password {
+  display: block;
+  height: 30px;
+  margin-bottom: 8px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.SigninForm--label, .SigninForm--submit {
+  display: block;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.SigninForm--label {
+  font-size: 12px;
+}
+
+.SigninForm--submit {
+  background-color: #0a0;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  display: box;
+  float: right;
+  margin-top: 12px;
+  padding: 10px 30px;
+}
+
+.SigninForm--id-error {
+  display: none;
+  color: #f00;
+  font-size: 12px;
+  padding-bottom: 18px;
+}
+
+.SigninForm--id-error.error {
+  display: block;
+}

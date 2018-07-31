@@ -1,0 +1,62 @@
+.ContentImage--root {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  display: flex;
+  font-size: 12px;
+  padding: 6px;
+}
+
+.ContentImage--item {
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+}
+
+.ContentImage--info {
+	color: #000;
+	display: flex;
+	flex-flow: column-reverse;
+	letter-spacing: 1px;
+	padding: 8px;
+}
+
+.ContentImage--resolution {
+	order: 1;
+	padding-bottom: 4px;
+}
+
+.ContentImage--created-label {
+	font-size: 8px;
+	font-weight: 700;
+}
+
+.ContentImage--created-value {
+	font-size: 12px;
+}
+
+.ContentImage--date-name {
+	font-weight: 700;
+	order: 3;
+	padding-bottom: 8px;
+}
+
+.ContentImage--type-image-container, .ContentImage--type-video-container {
+	display: flex;
+	order: 2;
+}
+
+.ContentImage--type-image, .ContentImage--type-video {
+	background-repeat: no-repeat;
+	background-size: 90%;
+	height: 34px;
+	width: 34px;
+}
+
+.ContentImage--type-image {
+	background-image: url('../img/image@2x.png');
+}
+
+.ContentImage--type-video {
+	background-image: url('../img/video@2x.png');
+}

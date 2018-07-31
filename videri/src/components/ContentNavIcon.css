@@ -1,0 +1,35 @@
+.ContentNavIcon--root {
+  color: #333;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 20px;
+  padding-bottom: 32px;
+}
+
+.ContentNavIcon--folder {
+  height: 48px;
+  width: 48px;
+}
+
+.ContentNavIcon--folder.open {
+  background-image: url("../img/folder_on@2x.png");
+}
+
+.ContentNavIcon--folder.closed {
+  background-image: url("../img/folder_off@2x.png");
+}
+
+.ContentNavIcon--label {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 12px;
+  height: calc(100% + 1.5em);
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.ContentNavIcon--folder.open > .ContentNavIcon--label {
+  color: #4191b3;
+}

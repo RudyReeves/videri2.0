@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.SigninPage--root {
+	background-image: url('img/light-bulb-3535435_1920.jpg');
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.SigninPage--root.hidden {
+  display: none;
+}
+
+.SigninPage--container {
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 9px 9px 120px #333;
+	height: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 33vw;
+}
+
+.SigninPage--heading, .SigninPage--subheading {
+	color: #777;
+	display: inline-block;
+	font-size: 24px;
+	letter-spacing: 10px;
+	margin: 0;
+	padding: 40px 0px 40px 80px;
+	text-transform: uppercase;
+}
+
+.SigninPage--subheading {
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding-left: 4px;
+}
